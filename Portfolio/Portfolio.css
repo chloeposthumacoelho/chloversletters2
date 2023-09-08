@@ -3,14 +3,14 @@
 }
 
 body{
-    background-color: #EEEEEE;   
+    background-color: #70547d;   
     height: 100%;
     overflow: scroll;
 }
 
 nav {
     height: 70px;
-    background-color:#121212;
+    background-color:#613659;
 }
 
 .container {
