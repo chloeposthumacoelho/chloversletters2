@@ -1,9 +1,9 @@
 *{
-    color: #fff;
+    color: #987d9e;
 }
 
 body {
-    background-color: #432852;
+    background-color: #987d9e;
     height: auto;
 }
 
@@ -44,7 +44,7 @@ p{
 }
 
 footer {
-    background-color:#613659;
+    background-color:#987d9e;
     height: 50px;
     position: unset;
 }
