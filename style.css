@@ -172,6 +172,14 @@ footer {
     .intro{
         font-size: 18px;
         line-height: 1.9;
+        }
+
+/* image-container {
+  display: inline-block;
+  align-items: center;
+  padding-right: 0; 
+} */
+
     }
 
     footer p {
