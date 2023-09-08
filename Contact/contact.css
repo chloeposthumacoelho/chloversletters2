@@ -1,0 +1,94 @@
+section {
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 14px auto 0px auto;
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #FFB95F;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.two {
+    margin-top: 40px;
+}
+
+.container a {
+    color: #f4f4f4;  
+    text-decoration: none;
+}
+
+.container a:visited {
+    color: #f4f4f4;  
+    
+}
+
+.icons>div, .icons {
+    display: flex;
+    justify-content: center;
+}
+
+h5, .container a:hover {
+    font-weight: 100;
+    color: #FFB95F;
+    font-family: 'Poppins', sans-serif;
+}
+
+h5 {
+    margin: 50px 0 15px 0;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Tablet view*/
+@media only screen and (min-width: 620px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    
+    h2 {
+        font-size: 27px;
+        margin-top: 50px;
+    }
+
+    h5{
+        font-size: 17px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .big-circle {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .two {
+        margin-top: 0px;
+    }
+}

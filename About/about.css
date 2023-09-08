@@ -1,0 +1,91 @@
+*{
+    color: #fff;
+}
+
+body {
+    background-color: #EEEEEE;
+    height: auto;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color:#121212;
+}
+
+li a {
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+    color: #000;
+}
+
+article{
+    margin: 30px 20px;
+}
+
+#lagoslink {
+    color: #dc851f;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 10px;
+    line-height: 1.7;
+    word-spacing: 2px;
+    color: #000;
+}
+
+footer {
+    background-color:#121212;
+    height: 50px;
+    position: unset;
+}
+
+@media only screen and (min-width: 760px) {
+    h2 {
+        margin-top: 2em;
+    }
+
+    article {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: unset;
+    }
+
+    article> div{
+        width: 70vw; 
+    }
+
+    p {
+    font-size: 17px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 990px) {
+    p{
+        font-size: 18px;
+    }
+
+    article> div{
+        width: 60vw;
+    }
+
+    footer {
+        position: absolute;
+    }
+    
+}
